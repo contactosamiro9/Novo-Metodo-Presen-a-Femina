@@ -1,0 +1,6 @@
+{
+  "name": "Pílulas do Poder - Guia Oficial",
+  "description": "Descubra o método que está a fazer mulheres inteligentes pararem de adivinhar o que os homens pensam — e começarem a escolher com clareza, poder e paz.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

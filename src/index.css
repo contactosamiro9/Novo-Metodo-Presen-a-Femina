@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    background-color: #ffffff;
+    color: #1e293b;
+  }
+  h1, h2, h3, .font-display {
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+}
+
+/* Soft UI & Glassmorphism Design System */
+.soft-card {
+  background: #ffffff;
+  border: 1px solid rgba(240, 230, 235, 0.8);
+  box-shadow: 0 10px 30px -5px rgba(220, 205, 215, 0.3), 0 2px 6px -1px rgba(0, 0, 0, 0.02);
+}
+
+.soft-card-elevated {
+  background: #ffffff;
+  border: 1px solid rgba(245, 235, 240, 0.9);
+  box-shadow: 0 20px 45px -10px rgba(225, 200, 215, 0.35), 0 4px 12px rgba(0, 0, 0, 0.03);
+}
+
+.soft-inset {
+  background: #fdfcfd;
+  box-shadow: inset 2px 2px 6px rgba(210, 195, 205, 0.18), inset -2px -2px 6px rgba(255, 255, 255, 0.9);
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.78);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.9);
+  box-shadow: 0 16px 36px -10px rgba(215, 190, 205, 0.28);
+}
+
+.glass-card-accent {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.92) 0%, rgba(255, 246, 249, 0.85) 100%);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1.5px solid rgba(243, 215, 226, 0.85);
+  box-shadow: 0 25px 60px -15px rgba(225, 185, 200, 0.35), inset 0 1px 0 rgba(255, 255, 255, 1);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+::-webkit-scrollbar-thumb {
+  background: #e2d8e0;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #caa9b7;
+}
