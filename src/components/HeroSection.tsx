@@ -27,7 +27,11 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenCheckout }) => {
         {/* SEÇÃO 2 — HEADLINE */}
         <div className="text-center max-w-4xl mx-auto mb-8">
           <h1 className="text-3xl sm:text-5xl lg:text-[3.25rem] font-bold text-slate-900 font-display tracking-tight leading-[1.18] text-balance">
-            Descubra o METODO Que Estão a Fazer Mulheres Inteligentes Pararem de Adivinhar o Que os Homens Pensam — e Começarem a Escolher Com Clareza, Poder e Paz
+            DE INSEGURA A INABALÁVEL
+            <br />
+            <span className="text-xl sm:text-2xl lg:text-3xl font-semibold text-slate-700">
+              Por Que Mulheres de Alto Valor Não Se Gabam, Não Reclamam e Não Se Explicam — e Ainda Assim Conquistam Tudo
+            </span>
           </h1>
           <p className="mt-5 text-lg sm:text-xl font-medium text-rose-800/90 tracking-wide">
             Sem joguinhos. Sem manipulação. Sem abrir mão de quem você é.
